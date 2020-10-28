@@ -1,0 +1,8 @@
+So now, we're going to combine everything in the previous lectures and we're going to actually make our first program. 
+So before we make this program, we need to talk a little bit about documentation. 
+We talked about mnemonic variables as a friendly thing for humans. 
+Another thing that's a friendly thing in programs for humans, and you will tend to realize that the human that you're 
+being friendly to when you're writing code and you're doing it well, is yourself. 
+So good variable names are going to help you a lot. They might help your teaching assistant but they're also going to help you. 
+Comments. Comments are a way for us to add text that's ignored by Python to our programs. 
+So it's a great way to give a little idea what's going on in code, maybe
