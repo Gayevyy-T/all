@@ -35,3 +35,24 @@ for x in range(20,0,-1):
     z=' * '*x
     print(z.center(100))
 print('| |'.center(100))
+#=======================================
+def triangleShape(n):
+    for i in range(n):
+        for j in range(n-i):
+            print('!', end=' ')
+        for k in range(2*i+1):
+            print('*',end=' ')
+        print()
+
+def poleShape(n):
+    for i in range(n):
+        for j in range(n-1):
+            print(' ', end=' ')
+        print('* * *')
+
+# Input and Function Call
+row = int(input('Enter number of rows: '))
+
+triangleShape(row)
+triangleShape(row)
+poleShape(row)
