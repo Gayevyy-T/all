@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.select import Select  # Select class needed for drop-down list
+from selenium.webdriver.common.keys import Keys #t osend commands:
+#ex.   browser.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 't')
 
 browser = webdriver.Chrome('C:\\Users\\A645674\\Downloads\\chromedriver')
 browser.get('https://defthw99w6fsrv.ww930.my-it-solutions.net/pilotCfg/?page=configurator')

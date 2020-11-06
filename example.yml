@@ -1,0 +1,36 @@
+#=================example yaml=============================
+mapping:
+  ec2:
+    resources:
+      type: "google_compute_instance"       
+      query_type: "instances[*].attributes"
+  vpc:
+    resources:
+      type: "google_compute_network"
+      query_type: "instances[*].attributes"
+
+data_mapping:
+  ec2:
+    name: "name"
+    id: "instance_id"
+    ip_address: "network_interface[*].network_ip"
+#    fqdn:
+    vpc_id: "network_interface[*].network"
+    os_type: "boot_disk[*].initialize_params[*].image" 
+  vpc:
+    name: "name"
+    id: "id"  
+
+
+#===============example PY=========================    
+import yaml   #pip install pyyaml
+
+
+path = 'C:\\Users\\A645674\\Desktop\\Atom\\FOR_ATOS\\'
+# Load config
+with open(path + 'servers.yml') as config:
+    config_file = yaml.load(config, Loader=yaml.BaseLoader)
+    
+    print(config_file)
+    for map in config_file['mapping']['ec2']['resources']:
+        print(map)

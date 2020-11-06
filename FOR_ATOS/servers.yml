@@ -1,0 +1,33 @@
+server_config:
+    host: "USCHO00001ASRV"
+    IP: "136.157.132.79"
+    MASK: "255.255.255.128"
+    GW: "136.157.132.1"
+    dns: "ad001" 
+    FIRSTDNS_DNS_IP: "129.103.63.7"
+    SECOND_DNS_IP: "129.103.63.9"
+    is_VPS: "yes" 
+    is_USA: "yes"
+
+server_2:
+    host: "USCHO00001BSRV"
+    IP: "136.157.132.79"
+    MASK: "255.255.255.128"
+    GW: "136.157.132.1"
+    dns: "ad001" 
+    FIRSTDNS_DNS_IP: "129.103.63.7"
+    SECOND_DNS_IP: "129.103.63.9"
+    is_VPS: "yes" 
+    is_USA: "yes"
+    
+server_3:
+    host: "USCHO00001CSRV"
+    IP: "136.157.132.79"
+    MASK: "255.255.255.128"
+    GW: "136.157.132.1"
+    dns: "ad001" 
+    FIRSTDNS_DNS_IP: "129.103.63.7"
+    SECOND_DNS_IP: "129.103.63.9"
+    is_VPS: "yes" 
+    is_USA: "yes"
+
