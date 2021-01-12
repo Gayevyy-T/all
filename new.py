@@ -1,30 +1,32 @@
-n = 5
-z = []
+#Deep learning
+#data science/big data
+#artificial inteligence
+#MachineLearning (include pandas ans data analises)
 
-for x in range(1,n+1):
-    z.append(x)
-print(z)
-y = ''.join(map(str, z))
-print(y)
-    
+import pandas as pd
+import csv
+#pd.__version__
 
-    
-#    for x_data in config_file['server_config']:
-#        print(x_data)  #key
-#        print(config_file['server_config'][x_data]) #values
-        #x_data = config_file['server_config'][x_data]
-        
-        
-        
-        
-#        x_data = y_data
- #       print(x_data)
- #       print(dns)
+#x = pd.read_csv('C:\\Users\\A645674\\Downloads\\Services.csv')
+col = ['OS', 'SERVICETYPE','STATE', 'OFFSHORE']
+
+y = pd.read_csv('C:\\Users\\A645674\\Downloads\\Services.csv', usecols = col, decimal = ',')
+#or
+#x[['OS', 'SERVICETYPE','STATE', 'OFFSHORE']]
+#or
+#x.loc[:,'OS':'SERVICETYPE']
 
 
 
 
 
+=====================================================
 
 
 
+y['OS'].tolist() --> sorted coulumn OS into a list
+y.to_csv('C:\\Users\\A645674\\Downloads\\new.csv')
+
+
+#${line[3]}" =~ Windows ]] && [[ "${line[5]}" =~ Application|IIS|TomCat|http ]] 
+#&& [[ "${line[9]}" =~ Up|Down ]] && [[ "${line[15]}" =~ (L1\-L2|L3)\ \-\ (ROM|PL) ]]; 
