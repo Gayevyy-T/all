@@ -1,0 +1,6 @@
+Use the Python module
+
+Now import network module at the beginning of the file.
+
+from network import *
+

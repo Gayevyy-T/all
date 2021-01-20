@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+import subprocess
+from multiprocessing import Pool
+import os
+
+def bkp(dir):
+  src = "./data/prod/"                          #path to source
+  dest = "./data/prod_backup/"                  #path to destenation
+  subprocess.call(["rsync", "-arq", src, dest]) #performing bkp
+if __name__=="__main__":
+  all_files = os.listdir("./data/prod/")        #listinh the src directory
+  list = []
+
+  for file in all_files:                        
+    path = os.path.join("./data/prod/", file)   #creating full path with the file name
+    print(path)
+    list.append(path)                           #adding the full path to the list
+
+  p =  Pool(len(list))                          #determining number of objects
+  p.map(bkp, list)                              #deviding to the number of cores/CPU
+
+
+#взяв все з src, конвертував в ліст, і з допомогою Pool розбив на різні відділи CPU з допомогою функції bkp і конвкртованого листа list
