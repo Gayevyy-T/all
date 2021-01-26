@@ -1,0 +1,13 @@
+unpack .zip
+write you credentials in the 'cred.yaml'
+run Generate_report.exe
+close console when it says that it's completed
+
+
+
+WORNINGs:
+- all files should be personal
+- password should not contain special characters ('!' is allowed)
+- if the folder 'new_reports' already exist, delete it before the start of the run of .exe file
+- URA should be ON
+- Google Chrome should be installed on the computer

@@ -1,0 +1,3 @@
+unpack .zip
+write you credentials in the 'cred.yaml'
+run Generate_report.py
