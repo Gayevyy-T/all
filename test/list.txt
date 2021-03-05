@@ -1,8 +1,0 @@
-total 1
--rw-r--r-- 1 WW930+A645674 4096  0 Jan  5 14:28 list.txt
-drwxr-xr-x 1 WW930+A645674 4096  0 Oct 26 13:36 New folder/
--rw-r--r-- 1 WW930+A645674 4096  0 Oct 26 13:36 New Text Document (2).txt
--rw-r--r-- 1 WW930+A645674 4096  0 Oct 26 13:36 New Text Document (3).txt
--rw-r--r-- 1 WW930+A645674 4096  0 Oct 26 13:36 New Text Document (4).txt
--rw-r--r-- 1 WW930+A645674 4096  0 Oct 26 13:36 New Text Document.txt
--rw-r--r-- 1 WW930+A645674 4096 24 Jan  5 14:25 new.txt
