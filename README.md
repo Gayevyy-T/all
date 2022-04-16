@@ -1,6 +1,6 @@
 # TARAS GAYEVYY
 
-## Śląska 22/45, 85-235 Bydgoszcz, Poland
+## 18 Koos Road, Etobicoke, Ontario, M9C 1W3, Canada
 ## +48-530-656-927
 ## DOB: Nov 05, 1987
 ## E-Mail: tarasa1987@gmail.com
